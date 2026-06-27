@@ -91,7 +91,7 @@ Developed as part of SQL database practice and academic learning.
 
 ============================================================================================================================================
 
- Robotics Lab Management System
+ Retail Management System
 
  Project Overview
 The Robotics Lab Management System is a MySQL database project designed to manage robots, engineers, and experiments performed inside a robotics laboratory.
