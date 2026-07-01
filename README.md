@@ -1,6 +1,6 @@
 Bookstore Management System
 
- Project Overview
+ Project Overview: 
 The Bookstore Management System is a relational database project developed using MySQL.  
 This project is designed to manage bookstore operations such as maintaining books, authors, genres, customers, orders, and order details.
 
@@ -93,7 +93,7 @@ Developed as part of SQL database practice and academic learning.
 
  Retail Store Management System
 
- Project Overview
+ Project Overview: 
 The Retail Store Management System is a MySQL database project designed to manage retail store operations efficiency. it demonstrates database design, SQL queeries, and data analysis techniques commonly used in retail businesses.
 
 Objectives:
