@@ -91,16 +91,18 @@ Developed as part of SQL database practice and academic learning.
 
 ============================================================================================================================================
 
- Retail Management System
+ Retail Store Management System
 
  Project Overview
-The Robotics Lab Management System is a MySQL database project designed to manage robots, engineers, and experiments performed inside a robotics laboratory.
+The Retail Store Management System is a MySQL database project designed to manage retail store operations efficiency. it demonstrates database design, SQL queeries, and data analysis techniques commonly used in retail businesses.
 
-This project demonstrates:
-- Database creation
-- Table relationships
-- SQL query implementation
-- Real-world database design concepts
+Objectives:
+- Manage product information
+- Track customers
+- Manage employee details
+- Record orders and sales
+- Monitor inventory
+- Generate business reports using SQL
 
 ---
 
@@ -113,16 +115,23 @@ This project demonstrates:
  Database Tables
 The project contains the following tables:
 
-1. Robots
-2. Engineers
-3. Experiments
+1. Customers
+2. Products
+3. Orders
+4. Categories
+5. Order_details
 
 ---
 
  Relationships
-- One robot can participate in multiple experiments
-- One engineer can handle multiple experiments
-- Experiments connect both robots and engineers
+- One robot can place multiple orders.
+- One employee can process multiple orders.
+- One order can contain multiple products.
+- One product can appear in multiple order details.
+- One supplier can appear in multiple products.
+- Orders connect customers and employees.
+- Order_Details connect orders and products.
+- Foreign keys maintain data integrity between tables.
 
 ---
 
